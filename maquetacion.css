@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image:url(imagen.jpg);
+    /*background-size:30%;*/
+    /*background-color: rgb(124, 27, 27);*/
+    align-items: center;
+}
+.logo{
+    border-radius: 70px;
+    width: 200px;
+    height: 200px;
+    background-image: url(logo1.jpg);
+    
+}
+.menu{
+    width: 70%;
+    /*background-color: rgb(4, 5, 4);*/
+    color:bisque;
+    margin: 10px;
+    padding: 10px;
+    border-left: 0px;
+}
+ul{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+figure{
+    width: 100%;
+    background-image: url(cat.png);
+    height: 500px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid rgb(24, 14, 14);
+    text-align: center;
+}
+figcaption{
+    margin: 10PX;
+    padding: 10PX;  
+    color: black;
+    font-size: 80px;
+}
+main{
+    
+    justify-content: center;
+    width: 100%;
+    background-image:url(imagen.jpg);
+}
+main h1{
+    width: 10;
+    height: 20;
+    text-align: center;
+    color: blue;
+
+}
+.boton {
+    
+    width: 1300px;
+    height: 30px;
+    margin:5px;
+    padding: 10px;
+    background-color: cyan;
+   
+    border-radius: .5em;
+    cursor: pointer;
+    transition: background-color 1s;
+    
+}
+.boton P{
+text-align: center;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size: 30px;
+}
+.boton:hover{
+    background-color: blue;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    width: 350px;
+    height: 200px;
+    background-color: cyan;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+    height: 400px;
+    background-image:url(imagen.jpg);
+    
+}
+footer h1{
+    
+    text-align: center;
+    color: blueviolet;
+    width: 450px;
+    height: 50px;
+
+}
+
+footer form input {
+    width: 150px;
+    height: 30px;
+    
+color: rgb(2, 10, 2);
+border-color: rgb(14, 10, 10);
+border-radius: 7px;
+text-align: center;
+
+}
+.caja{
+    
+    width: 350px;
+    height: 50px;
+    background-color: rgb(192, 26, 142);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: double;
+}
+
